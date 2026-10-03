@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Survey Camera Body -->
+        <path
+            android:fillColor="#F8FAFC"
+            android:pathData="M33,38h9l3.5,-4.5c0.8,-1 2,-1.5 3.2,-1.5h10.6c1.2,0 2.4,0.5 3.2,1.5L66,38h9c4.4,0 8,3.6 8,8v24c0,4.4 -3.6,8 -8,8H33c-4.4,0 -8,-3.6 -8,-8V46c0,-4.4 3.6,-8 8,-8z" />
+        
+        <!-- Viewfinder / Lens Outer Rim -->
+        <path
+            android:fillColor="#0284C7"
+            android:pathData="M54,45c6.6,0 12,5.4 12,12s-5.4,12 -12,12s-12,-5.4 -12,-12s5.4,-12 12,-12z" />
+
+        <!-- Lens Inner Core -->
+        <path
+            android:fillColor="#0F172A"
+            android:pathData="M54,49c4.4,0 8,3.6 8,8s-3.6,8 -8,8s-8,-3.6 -8,-8s3.6,-8 8,-8z" />
+
+        <!-- Crosshair Reticle / GPS Targeting Elements -->
+        <path
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="1.5"
+            android:pathData="M54,46v3 M54,65v3 M43,57h3 M62,57h3" />
+
+        <!-- GPS Marker Pin Accent in vibrant Amber -->
+        <path
+            android:fillColor="#F59E0B"
+            android:pathData="M70,30c-3.3,0 -6,2.7 -6,6c0,4.5 6,10 6,10s6,-5.5 6,-10c0,-3.3 -2.7,-6 -6,-6zm0,8c-1.1,0 -2,-0.9 -2,-2s0.9,-2 2,-2s2,0.9 2,2s-0.9,2 -2,2z" />
+    </group>
+</vector>
